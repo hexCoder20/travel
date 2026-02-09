@@ -1,0 +1,42 @@
+.footer{
+    background-color:#222;
+    padding:40px 20px 20px;
+    color:white;
+    text-align:center;
+}
+
+.footer-content h3{
+    margin-bottom:10px;
+    color:#ff6b6b;
+}
+
+.footer-content p{
+    margin-bottom:20px;
+    color:#ccc;
+    font-size:0.9rem;
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    font-weight:bold;
+    font-size:0.9rem;
+}
+
+.social-icons span {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons span:hover {
+  color: #ff6b6b;
+}
+
+.copyright{
+    margin-top:40px;
+    border-top:1px solid #333;
+    padding-top:20px;
+    font-size:0.8rem;
+    color:#888;
+}

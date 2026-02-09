@@ -2,14 +2,21 @@
     background-color:#333;
     color:white;
     display:flex;
-    justify-content:space-between;
-    align-items:center;
+    flex-direction:column;
     padding:20px 40px;
     position:fixed;
     width:100%;
     top:0;
     left:0;
     z-index:1000;
+    align-items:center;
+}
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Row again */
+    justify-content: space-between; /* Push to edges */
+    align-items: center;
+  }
 }
 
 .logo{
@@ -21,10 +28,21 @@
 
 .nav-links{
     display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin-top:15px;
     list-style:none;
     gap:30px;
 }
 
+@media (min-width:768px){
+    .nav-links{
+        flex-direction:row;
+        text-align:left;
+        margin-top:0;
+        gap:30px;
+    }
+}
 .nav-links a{
     text-decoration:none;
     color:white;

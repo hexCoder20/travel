@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Destinations from './components/Destinations.jsx'
+import Destinations from './components/Destinations.jsx';
+import Footer from './components/Footer.jsx';
+import Contact from './components/Contact.jsx';
 
 import './App.css'
 
@@ -35,6 +37,8 @@ const destinations = [
     <Navbar />
     <Hero />
     <Destinations destinations={destinations} />
+    <Contact />
+    <Footer />
      </> 
   )
 }
